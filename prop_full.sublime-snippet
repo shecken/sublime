@@ -1,0 +1,29 @@
+<snippet>
+	<content><![CDATA[
+/**
+ * Get ${1:property_name}
+ *
+ * @return ${2:type}
+ */
+protected function get${3:func_name}()
+{
+	return \$this->${1/\*//};
+}
+
+/**
+ * Set ${1/\*//} with \$value
+ *
+ * @param ${2/\*//}			\$value
+ */
+protected function with${3/\*//}($value)
+{
+	\$clone = clone \$this;
+	\$this->${1/\*//} = \$value;
+	return \$clone;
+}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>prop_full</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.php</scope>
+</snippet>
