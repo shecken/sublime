@@ -1,0 +1,22 @@
+<snippet>
+	<content><![CDATA[
+/**
+ * Test class for TaskLoggerSymfony
+ *
+ * @author Daniel Weise <daniel.weise@concepts-and-training.de>
+ */
+class TaskLoggerSymfonyTest extends PHPUnit_Framework_TestCase
+{
+	/**
+	 * Setup the testing environment
+	 */
+	public function setUp()
+	{
+	}
+}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>test</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.php</scope>
+</snippet>
