@@ -20,7 +20,7 @@ protected function get${3:func_name}()
 protected function with${3/\*//}($value)
 {
 	\$clone = clone \$this;
-	\$this->${1/\*//} = \$value;
+	\$clone->${1/\*//} = \$value;
 	return \$clone;
 }
 ]]></content>
