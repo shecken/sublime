@@ -1,16 +1,37 @@
 <snippet>
 	<content><![CDATA[
 /**
- * Test class for TaskLoggerSymfony
+ * Test class for ${1:class_name}
  *
  * @author Daniel Weise <daniel.weise@concepts-and-training.de>
  */
-class TaskLoggerSymfonyTest extends PHPUnit_Framework_TestCase
+class ${1/\*//} extends PHPUnit_Framework_TestCase
 {
 	/**
-	 * Setup the testing environment
+	 * Setup the testing environment once
+	 */
+	public function setUpBeforeClass()
+	{
+	}
+
+	/**
+	 * Setup the testing environment before each test method
 	 */
 	public function setUp()
+	{
+	}
+
+	/**
+	 * Tear down after each test method
+	 */
+	public function tearDown()
+	{
+	}
+
+	/**
+	 * Tear down once after all
+	 */
+	public function tearDownAfterClass()
 	{
 	}
 }
