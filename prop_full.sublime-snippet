@@ -14,6 +14,8 @@ protected function get${3:func_name}()
  * Set ${1/\*//} with \$value
  *
  * @param ${2/\*//}			\$value
+ *
+ * @return \$this
  */
 protected function with${3/\*//}($value)
 {

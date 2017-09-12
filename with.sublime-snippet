@@ -4,8 +4,10 @@
  * Set ${1:prop_name} with \$value
  *
  * @param ${2:type}			\$value
+ *
+ * @return \$this
  */
-protected function with${3:func_name}($value)
+protected function with${3:func_name}(\$value)
 {
 	\$clone = clone \$this;
 	\$this->${1/\*//} = \$value;
