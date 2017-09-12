@@ -1,7 +1,5 @@
 <snippet>
 	<content><![CDATA[
-<?php
-
 /**
  * Class ${1:class_name}
  *
